@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>リバーシ</title>
+    <meta charset="utf-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    <script src="reversi.js"></script>
+    <script src="board.js"></script>
+    <script src="gui.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="gui.css" type="text/css"/>
+  </head>
+  <body>
+    <h4>コンピュータリバーシ</h4>
+    <form>
+      <div id="radio">
+         <input type="radio" name="teban" value="1" id="radio1"><label for="radio1">先手</label>
+         <input type="radio" name="teban" value="-1" id="radio2"><label for="radio2">後手</label>
+         <input type="button" id="start" value="ゲームスタート">
+      </div>
+    </form>
+    <p><div id="board">
+      <div id="row_1"></div>
+      <div id="row_2"></div>
+      <div id="row_3"></div>
+      <div id="row_4"></div>
+      <div id="row_5"></div>
+      <div id="row_6"></div>
+      <div id="row_7"></div>
+      <div id="row_8"></div>
+    </div>
+    <div><input type="button" id="pass" value="パス"></div>
+    <p><div id="message">メッセージエリアです．</div>
+    <!-- <div><input type="button" id="undo" value="undo"></div> -->
+  </body>
+</html>
