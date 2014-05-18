@@ -1,4 +1,4 @@
 Othello
 =======
 
-Othello with JavaScript
+Othello for study JavaScript
